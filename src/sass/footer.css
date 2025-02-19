@@ -1,0 +1,49 @@
+footer {
+  padding: 15px 0;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer-info a {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #53422e;
+  cursor: pointer;
+}
+
+.footer-info p {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #272018;
+}
+
+.info-name {
+  transition: 0.5s ease-in-out;
+}
+
+.info-name:hover {
+  color: #53cd37;
+}
+
+.footer-link {
+  cursor: pointer;
+  max-width: 10%;
+}
+
+.link-img {
+  width: 100%;
+}/*# sourceMappingURL=footer.css.map */

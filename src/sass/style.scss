@@ -1,0 +1,43 @@
+@import "./mixins.scss";
+@import "./var.scss";
+@import "./gameField.scss";
+@import "./modal.scss";
+@import "./audioControls.scss";
+@import "./raitingModal.scss";
+@import "./footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: Pacifico, Arial, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: url(../assets/background/colorful-2174045_1920.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  background: rgba(79, 4, 4, 0.4);
+  width: 90%;
+  height: 90vh;
+  margin: 5% 10% 0 10%;
+  border-radius: $_10px;
+}

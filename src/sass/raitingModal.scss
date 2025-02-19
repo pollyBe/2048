@@ -1,0 +1,21 @@
+.raitings-wrap{
+  display: flex;
+  flex-direction: column;
+  .raitings-title{
+    font-size: $_24px;
+    text-align: center;
+    letter-spacing: $_1px;
+    color: #3e2020;
+  }
+  #raitings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    .raiting-list_item{
+      font-size: $_20px;
+      color: #4e3b23;
+    }
+  }
+}
+
